@@ -2,13 +2,13 @@ DOMAIN = "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/datasets/"
 
 def create_region_data(region_name):
     return {
-        "Max Temp": f"{DOMAIN}Tmax/ranked/{region_name}.txt",
-        "Min Temp": f"{DOMAIN}Tmin/ranked/{region_name}.txt",
-        "Mean Temp": f"{DOMAIN}Tmean/ranked/{region_name}.txt",
+        "MaxTemp": f"{DOMAIN}Tmax/ranked/{region_name}.txt",
+        "MinTemp": f"{DOMAIN}Tmin/ranked/{region_name}.txt",
+        "MeanTemp": f"{DOMAIN}Tmean/ranked/{region_name}.txt",
         "Sunshine": f"{DOMAIN}Sunshine/ranked/{region_name}.txt",
         "Rainfall": f"{DOMAIN}Rainfall/ranked/{region_name}.txt",
-        "Raindays ≥1.0mm": f"{DOMAIN}Raindays1mm/ranked/{region_name}.txt",
-        "Days of Air frost": f"{DOMAIN}AirFrost/ranked/{region_name}.txt"
+        "Raindays": f"{DOMAIN}Raindays1mm/ranked/{region_name}.txt",
+        "DaysOfAirfrost": f"{DOMAIN}AirFrost/ranked/{region_name}.txt"
     }
 
 DATA = {
@@ -21,4 +21,4 @@ DATA = {
 }
 
 REGIONS = ["UK", "England", "Wales", "Scotland", "Northern Ireland", "England & Wales"]
-PARAMETERS = ["Max Temp", "Min Temp", "Mean Temp", "Sunshine", "Rainfall", "Raindays ≥1.0mm", "Days of Air frost"]
+PARAMETERS = ["MaxTemp", "MinTemp", "MeanTemp", "Sunshine", "Rainfall", "Raindays", "DaysOfAirfrost"]
