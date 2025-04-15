@@ -19,3 +19,10 @@ A RESTful Django API application built with Python and Docker. This project is c
 - Python
 
 ---
+
+## ▶️ Running the Server
+
+To run the live server, go to:  
+🌐 **[https://farmsetu-assessment.onrender.com](https://farmsetu-assessment.onrender.com)**
+
+---
