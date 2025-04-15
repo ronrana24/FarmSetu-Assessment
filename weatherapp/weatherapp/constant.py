@@ -16,9 +16,9 @@ DATA = {
     "England": create_region_data("England"),
     "Wales": create_region_data("Wales"),
     "Scotland": create_region_data("Scotland"),
-    "Northern Ireland": create_region_data("Northern_Ireland"),
-    "England & Wales": create_region_data("England_and_Wales"),
+    "Northern-Ireland": create_region_data("Northern_Ireland"),
+    "England-Wales": create_region_data("England_and_Wales"),
 }
 
-REGIONS = ["UK", "England", "Wales", "Scotland", "Northern Ireland", "England & Wales"]
+REGIONS = ["UK", "England", "Wales", "Scotland", "Northern-Ireland", "England-Wales"]
 PARAMETERS = ["MaxTemp", "MinTemp", "MeanTemp", "Sunshine", "Rainfall", "Raindays", "DaysOfAirfrost"]
