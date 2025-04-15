@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!3qx*cx9yiz2w#10^uhwe76zlq4f2&#+1^i8r8zrrv9e4*-$00
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["farmsetu-assessment.onrender.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
